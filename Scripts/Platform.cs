@@ -17,7 +17,7 @@ public class Platform : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "PlatformStop1")
+        if (other.tag == "PlatformStop")
         {
             direction *= -1;
         }
