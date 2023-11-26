@@ -27,6 +27,6 @@ public class Timer : MonoBehaviour
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(sceneIndex);
         }
-        print(minutes+ ":" + sec);
+        print(minutes + ":" + sec);
     }
 }
