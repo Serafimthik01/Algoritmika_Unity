@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bonefire : MonoBehaviour
+public class Bonfire : MonoBehaviour
 {
     public float lifeTime = 15;
     public float heatPower = 0.1f;
