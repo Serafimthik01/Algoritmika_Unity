@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private int health = 10;
+    public int health = 10;
     public GameObject fireballPrefab;
     public Transform attackPoint;
-    private int coins;
+    public int coins;
 
     void Update()
     {
@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        print("Здоровье игрока: " + health);
+        print("Г‡Г¤Г®Г°Г®ГўГјГҐ ГЁГЈГ°Г®ГЄГ : " + health);
     }
 
 }
