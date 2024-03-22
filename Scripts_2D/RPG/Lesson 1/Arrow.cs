@@ -25,8 +25,6 @@ public class Arrow : MonoBehaviour
             Enemy enemy = other.GetComponent<Enemy>();
             enemy.TakeDamage();
         }
-
         Destroy(gameObject);
     }
-
 }
