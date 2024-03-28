@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Crossbow : MonoBehaviour
@@ -8,8 +6,6 @@ public class Crossbow : MonoBehaviour
 
     public float shootInterval = 0.75f;
     public float shootTimer = 0;
-
-    
 
     void Update()
     {
@@ -20,8 +16,6 @@ public class Crossbow : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
-            
-
             Vector2 mouseScreenPos = Input.mousePosition;
 
             Vector2 mouseScenePos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
@@ -43,8 +37,6 @@ public class Crossbow : MonoBehaviour
                 Instantiate(arrowPrefab, transform.position, transform.rotation);
                 shootTimer = shootInterval;
             }
-
-
         }
     }
 }
